@@ -1,0 +1,54 @@
+.active11{
+    background-color: #fca311 !important;
+    color: white !important;
+}
+
+.justtify{
+    text-align: justify;
+}
+
+.bgc{
+    background: rgb(255,186,0);
+background: linear-gradient(90deg, rgba(255,186,0,1) 31%, rgba(255,218,92,1) 100%);
+}
+
+/* Style for the tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* Add additional styles as needed for the tooltip appearance */
+  }
+  
+  .tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .tooltip:hover::after {
+    opacity: 1;
+  }
+  
+  .coll {
+    /* Your existing styles */
+    transition: background-color 0.3s ease; /* Add transition properties */
+  }
+
+  .coll:hover{
+    background-color: #028200 !important;
+  }
+
+
+  .jack{
+    color: #ebe6ce;
+  }

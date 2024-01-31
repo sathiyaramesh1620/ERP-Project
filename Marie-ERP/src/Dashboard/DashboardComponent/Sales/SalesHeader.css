@@ -1,0 +1,63 @@
+/* In your CSS stylesheet */
+
+/* Style for the select elements */
+.form-select-custom {
+  appearance: none !important;
+  background-color: #f7f7f7 !important;
+  border: 2px solid #ccc !important;
+  border-radius: 5px !important;
+  padding: 8px 12px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+  width: 150px !important;
+  cursor: pointer !important;
+  transition: border-color 0.2s, background-color 0.2s !important;
+}
+
+/* Style when the select is focused */
+.form-select-custom:focus {
+  border-color: #007bff !important;
+  background-color: #fff !important;
+}
+
+/* Style for the dropdown arrow */
+.form-select-custom::after {
+  content: "▼" !important;
+  position: absolute !important;
+  top: 50% !important;
+  right: 10px !important;
+  transform: translateY(-50%) !important;
+}
+
+/* Style for the options in the select */
+.form-select-custom option {
+  background-color: #fff !important;
+  color: #333 !important;
+}
+
+/* Hover effect for options */
+.form-select-custom option:hover {
+  background-color: red !important;
+  color: #fff !important;
+}
+
+/* Disabled select */
+.form-select-custom:disabled {
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
+}
+
+.sales-header-link:hover {
+  border-bottom: 3px solid #fca311;
+  transition: all 0.1s linear;
+}
+
+.importBtn {
+  background-color: #fca311 !important;
+  color: white !important;
+}
+
+.navBack{
+  background-color: #fcae30 !important;
+  
+}

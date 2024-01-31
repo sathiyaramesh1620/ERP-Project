@@ -1,0 +1,89 @@
+.head {
+  text-align: left;
+  font-size: x-large;
+  color: #fca311;
+  margin-top: -50px;
+}
+.head-2 {
+  text-align: left;
+  margin-top: 30px;
+  font-size: large;
+  margin-bottom: 40px;
+}
+.phead {
+  text-align: left;
+  color: grey;
+}
+.drop {
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+#dropdown {
+  border: 1px solid rgba(0, 0, 0, 0.422);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.table {
+  text-align: left;
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.337);
+}
+th {
+  border: 1px solid rgba(0, 0, 0, 0.337);
+}
+td {
+  border: 1px solid rgba(0, 0, 0, 0.337);
+}
+
+.Process-builder-table > td {
+  border: none !important;
+}
+
+#multi .chip {
+  background-color: #e0e9fa;
+  color: black;
+}
+
+.advertising-report-description {
+  display: none;
+  /* font-size: 12px;
+  position: absolute;
+  border: 1px solid;
+  width: 150px;
+  min-height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff; */
+}
+
+.custom-report-expenditure:hover + .advertising-report-description,
+.advertising-report-description:hover {
+  display: block;
+  font-size: 12px;
+  position: absolute;
+  //border: 1px solid;
+  width: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  left: 620px;
+  top: 280px;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1323px) {
+}
+
+@media screen and (max-width: 650px) {
+  .custom-report-expenditure:hover + .advertising-report-description,
+  .advertising-report-description:hover {
+    left: 200px;
+    top: 300px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+}

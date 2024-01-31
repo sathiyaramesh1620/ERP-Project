@@ -1,0 +1,31 @@
+.tableBody {
+    width: 100%;
+}
+
+.tableBody,
+.tableHead,
+.tableData {
+    border-collapse: separate !important;
+}
+
+.tableHead,
+.tableData {
+    border: 1px solid black;
+    padding: 6px 12px;
+}
+
+.tableHead {
+    background-color: #002060;
+    color: white;
+
+}
+
+.tableData {
+    background-color: #deebf7;
+
+}
+
+.tableHead:nth-child(1),
+.tableData:nth-child(1) {
+    width: 225px;
+}

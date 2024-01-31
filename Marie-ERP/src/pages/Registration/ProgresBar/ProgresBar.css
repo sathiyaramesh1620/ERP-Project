@@ -1,0 +1,260 @@
+.step-wizard-list {
+  color: #333;
+  list-style-type: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.step-wizard-item {
+  padding: 0 20px;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 170px;
+  position: relative;
+}
+
+/* .step-wizard-item + .step-wizard-item:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 19px;
+    background: #21d4fd;
+    width: 100%;
+    height: 2px;
+    transform: translateX(-50%);
+    z-index: -10;
+} */
+.progress-count {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 600;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  color: transparent;
+  background: #e5e5e5;
+}
+
+/* .progress-count:after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  background: #e5e5e5;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -10;
+} */
+
+.progress-count:before {
+  content: "";
+  height: 10px;
+  width: 20px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%) rotate(-45deg);
+  transform-origin: center center;
+}
+
+.progress-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.current-item .progress-count:before,
+.current-item ~ .step-wizard-item .progress-count:before {
+  display: none;
+}
+
+.current-item ~ .step-wizard-item .progress-count:after {
+  height: 10px;
+  width: 10px;
+}
+
+.current-item ~ .step-wizard-item .progress-label {
+  opacity: 0.5;
+}
+
+.current-item .progress-count:after {
+  background: #f0b417;
+  box-shadow: 2px 2px 12px #14213d6e;
+  /* border: 6px solid #14213D; */
+}
+
+.current-item .progress-count {
+  color: #ffffff;
+}
+
+.NavBar {
+  background: #14213d;
+  color: white;
+  /* height: 110px; */
+  /* background: #F0B417; */
+  position: relative;
+}
+
+/* basic info */
+.form_label {
+    color: #14213D !important;
+    text-align: start !important;
+    font-size: 25px !important;
+    font-weight: 700;
+
+}
+
+.mb-3 .form_label-1 {
+    color: #14213D !important;
+    font-size: 25px !important;
+}
+
+.form-label {
+  color: #14213d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.img-container > h5 {
+  position: absolute;
+  right: 14px;
+  bottom: -1px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-select,
+.form-control {
+  height: 56px;
+}
+
+/* button */
+
+.btn-primary {
+    --bs-btn-bg: #F0B417 
+    width: 120px;
+    --bs-btn-border-color: #00000040 !important;
+    border-radius: 15px !important;
+}
+
+.btn-primary.btn-2 {
+  background: #00000073;
+}
+
+/* .btn-2{
+    border: none;
+}
+
+.btn-primary:hover{
+    --bs-btn-bg: #F0B417 !important
+} */
+
+/* Medium (md) Devices */
+@media (min-width: 577px) and (max-width: 768px) {
+  .img-container img {
+    width: 80px;
+    height: auto;
+  }
+
+  .fs-2 {
+    font-size: 1.2rem;
+  }
+
+  .fs-4 {
+    font-size: 1rem;
+  }
+
+  .text-end {
+    text-align: center;
+  }
+
+  .step-wizard-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-wizard-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .progress-count {
+    font-size: 1rem;
+  }
+
+  .progress-label {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+  .img-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container > h5 {
+    position: inherit;
+    margin: auto;
+  }
+
+  .img-container > .list-unstyled > .mt-0 {
+    text-align: center;
+    margin-top: 1px !important;
+    font-size: 20px !important;
+  }
+
+  .img-container img {
+    width: 80px;
+    height: auto;
+  }
+
+  .fs-2 {
+    font-size: 1.2rem;
+  }
+
+  .fs-4 {
+    font-size: 1rem;
+  }
+
+  .text-end {
+    text-align: center;
+  }
+
+  .step-wizard-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-wizard-item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .progress-count {
+    font-size: 1rem;
+  }
+
+  .progress-label {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,189 @@
+.cancelLink {
+    color: red; /* Text color */
+    text-decoration: none; /* Remove underline */
+    /* font-weight: bold; Make the text bold */
+    /* Add any other styles you want */
+  }
+
+  .labourButton{
+    border-radius: 5px !important;
+    background-color: #14213d !important;
+    color: white !important;
+  }
+
+  .subLabButton{
+    border-radius: 5px !important;
+    background-color: #14213d !important;
+    color: white !important;
+  }
+
+  .labourList{
+    background-color: #14213d !important;
+    color: white !important;
+  }
+
+  .labbutton:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+    color: black !important;
+    border-radius: 10px;
+  }
+
+/* Add border to previous and next buttons */
+/* .pagination {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.pagination a {
+  border-top: 1px solid rgba(74, 73, 62, 0.74);
+  border-radius: 0px !important;
+  padding: 5px 10px;
+  margin: -8px;
+  text-decoration: none;
+  color: #333;
+  border-top-right-radius: 5px solid black;
+  border-bottom: 1px solid rgba(74, 73, 62, 0.74);
+}
+
+.pagination .active a {
+  background-color: #14213d !important; /* Background color for active page */
+  color: #fff !important;
+  border: 1px solid rgba(74, 73, 62, 0.74);
+  margin: -11px;
+}
+
+.pagination .active a:hover {
+  background-color: #14213d !important; /* Background color for active page */
+  color: #fff !important;
+}
+/* Style for previous and next buttons */
+.pagination-previous,
+.pagination-next {
+  border: 1px solid #333;
+  padding: 5px 10px;
+  margin: 2px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination-previous:hover,
+.pagination-next:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.previous-button{
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 10px;
+  margin: -16px;
+  
+}
+
+.next-button{
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px 10px;
+  margin: -16px;
+}
+
+.kl{
+  color: #f7f9ff;
+}
+
+/* SearchBox.css */
+
+/* Search container style */
+.search-container {
+  position: relative;
+}
+
+/* Search input style */
+.search-input {
+  padding: 10px 30px 10px 40px;
+  border: 1px solid rgb(40, 46, 165);
+  border-radius: 25px !important;
+  width: 250px;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Search button style */
+.search-button {
+  position: absolute;
+  top: 50%;
+  left: 20.5rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Search button icon style */
+.search-button i {
+  color: rgb(144, 147, 242);
+  font-size: 18px;
+}
+
+
+
+.nav .nav-item .active{
+    border-bottom: 3px solid rgb(255, 226, 108) ;
+    font-weight:600;
+    color: black !important;
+    
+} 
+
+ .nav .nav-item .nav-link:hover{
+    
+     color: rgb(0, 0, 0) !important;
+   
+    
+   
+} 
+
+.nav .nav-item .nav-link {
+  display: inline-block;
+  position: relative;
+  color: #bfd3ff;
+  font-size: larger;
+}
+
+.nav .nav-item .nav-link::after,
+.nav .nav-item .nav-link.active::after { 
+    content: '';
+    
+    width: 100%;
+    
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #00000000;
+    transform-origin: none !important;
+    transition: none !important;
+}
+
+.nav .nav-item .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left right;
+}
+
+
+.nav .nav-item .nav-link.active::after {
+    transform: scaleX(1); 
+    background-color: #fff !important;
+}
+
+.nav .nav-item .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+

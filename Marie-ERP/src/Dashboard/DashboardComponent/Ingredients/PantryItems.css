@@ -1,0 +1,32 @@
+/* PantryItems.css */
+.pantry-items-container {
+  margin: 20px;
+}
+
+.table-header-row {
+  background-color: #14213d;
+  color: white;
+}
+
+.no-data-row {
+  text-align: center;
+}
+
+tr {
+  border: 1px solid #14213d4f;
+}
+
+/* tr:hover {
+  background: #14213d5b;
+} */
+
+td {
+  padding: 0.3em;
+  border-right: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.killo{
+  background: transparent;
+  color: rgb(255, 248, 236);
+}
+

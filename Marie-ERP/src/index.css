@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400;500;700&family=Raleway:wght@100&family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Lexend", sans-serif;
+}
+:root {
+  --base-color: #fca311;
+}
+
+/* .app{
+  background: #eee;
+} */
+.custom-alert {
+  position: fixed;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.text-base {
+  color: var(--base-color);
+}
+
+.bg-dark-blue{
+  background: #14213d;
+}
+.bg-base-color{
+  background: #fca311;
+}
+
+h1, h2, h3, h4, h5, h6{
+ color: black;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection{
+  color: white;
+  background: #fca311;
+ }
+
+ P::selection{
+  color: white;
+  background: #fca311;
+ }

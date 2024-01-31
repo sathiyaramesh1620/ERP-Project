@@ -1,0 +1,50 @@
+.bighead{
+    font-size: 100px;
+}
+
+.bighead1{
+    font-size: 60px;
+}
+
+.iconS{
+    --fa-primary-color: #00568b; --fa-primary-opacity: 1; --fa-secondary-color: #e6a800; --fa-secondary-opacity: 0.8;
+}
+
+.colun{
+    transition: transform 0.4s ease;
+    border: 1px solid rgb(221, 221, 221) !important;
+   
+}
+
+.colun:hover{
+    transition: 0.4s;
+    transform: scale(1.01,1.01);
+    
+}
+
+
+.scrollable-column {
+    height: calc(100vh - 100px); 
+    overflow-y: scroll;
+  }
+
+  .scrollable-column::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .scrollable-column {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+.more{
+    color: red !important;
+}
+
+.less{
+    color: green !important;
+}
+
+.inputM{
+    height: 50px !important;
+}

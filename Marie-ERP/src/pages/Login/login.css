@@ -1,0 +1,74 @@
+:root {
+  --base-color: #14213d;
+}
+
+.login-left-triangle {
+  clip-path: polygon(0% 0%, 100% 49.25%, 100% 49.25%, 0% 100%);
+  background-color: var(--base-color);
+  height: 100vh;
+  width: 100%;
+  border-radius: 0% 100% 100% 0% / 25% 60% 50% 25%;
+  overflow: hidden;
+}
+
+
+.login-page-red-circle {
+  position: absolute;
+  right: -2em;
+  top: -3em;
+}
+.login-page-logo {
+  /* box-shadow: -2px 2px 7px 0px rgba(0, 0, 0, 0.388); */
+  border-radius: 10px;
+  
+}
+
+.ForgotPass-label {
+  position: relative;
+  bottom: -20px;
+  right: -2.7em;
+  z-index: 99;
+  background: white;
+  color: rgb(0, 0, 117);
+  padding: 0 5px;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  position: relative;
+}
+
+.icon {
+  padding: 1.3em;
+  min-width: 50px;
+}
+.input-field {
+  width: 100%;
+  padding: 0.9em 3em;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.icon-show-password {
+  padding: 1.3em;
+  right: 0;
+}
+
+.btn-base {
+  background: var(--base-color);
+  border-radius: 10px;
+  border: none;
+  box-shadow: -2px 2px 7px 0px rgba(0, 0, 0, 0.388);
+}
+
+
+@media (width <= 992px) {
+  .login-left-side {
+    display: none;
+  }
+}
+
+

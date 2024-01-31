@@ -1,0 +1,20 @@
+.circle {
+    width: 150px; /* Adjust the width and height as needed for your design */
+    height: 150px;
+    background-color: #fca311; /* Adjust the background color as needed */
+    border-radius: 50%; /* Makes it a circle */
+    color: #fff; /* Text color inside the circle */
+    text-align: center;
+    line-height: 40px; /* Center the text vertically */
+    font-weight: bold; /* Make the text bold */
+  }
+
+.squarr{
+  color: rgb(167, 234, 154);
+}
+
+  /* .borderD{
+    border: 2px solid orange;
+  } */
+
+  

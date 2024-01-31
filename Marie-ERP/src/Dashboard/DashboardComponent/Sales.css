@@ -1,0 +1,144 @@
+.button-groups{
+    width: 100%;
+    height: 50px;
+    font-weight: 500 !important;
+    border: 2px solid #FCA311 !important;
+}
+
+.btntoggle.active{
+    background-color: #FCA311 !important;
+    color: white !important; 
+}
+
+.btntoggle.active:hover{
+    background-color: #FCA311 !important;
+    color: white !important;
+    transform: scale(1.05, 1.11);
+}
+
+.button-groups:hover{
+    background-color: #FCA311 !important;
+    color: white !important;
+    transition: 0.3s;
+    transform: scale(1.05 , 1.11);
+    
+}
+
+.active, .sales-nav:hover{
+    background-color: white !important;
+    color: black !important;
+    
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+
+/* .nav .nav-item .active{
+    border-bottom: 5px solid #14213d !important;
+    color: black !important;
+    
+}  */
+
+ /* .nav .nav-item .nav-link:hover{
+     background-color:  #14213d !important;
+     color: white !important;
+   
+    transition: 0.3s;
+    transform: scale(1.05 , 1.111);
+} */
+
+.nav .nav-item .nav-link {
+    display: inline-block;
+    position: relative;
+    color: #14213d;
+}
+
+.nav .nav-item .nav-link::after,
+.nav .nav-item .nav-link.active::after { /* Apply styles to both ::after and active ::after */
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FCA311;
+    transform-origin: bottom right left;
+  
+    transition: transform .4s ease-out;
+}
+
+.nav .nav-item .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left right;
+}
+
+/* Style for the active link */
+.nav .nav-item .nav-link.active::after {
+    transform: scaleX(1); /* Show the underline for the active link */
+}
+
+.nav .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.Thead{
+    background-color:  #14213d !important;
+    color: white !important;
+}
+
+.box-size{
+    height: 38px !important;
+}
+
+/* pagination style */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .pagination li {
+    margin: 0 10px;
+  }
+  
+  .pagination li.previous,
+  .pagination li.next {
+    font-weight: bold;
+  }
+  
+  .pagination li.active a {
+    color: #fff;
+    background-color: #FCA311; /* Active page color */
+    /* border: 2px solid #007bff; Border color for active page */
+    border-radius: 50%; /* Make it a circle */
+    padding: 5px 10px;
+  }
+  
+  .pagination li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pagination li a:hover {
+    color: #000000 !important; /* Hover color */
+    
+  }
+  
+  .error-messagee {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }

@@ -1,0 +1,49 @@
+
+
+/* Apply basic styles to the HTML and body for full height */
+html, body {
+    height: 99%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Create a full-page container */
+  .full-page-container {
+    width: 100%;
+    min-height: 100vh; /* Use minimum viewport height to cover the entire screen */
+    /* Additional styles */
+    
+   
+   
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive content inside the container */
+  .full-page-container .content {
+    max-width: 100%;
+   
+  }
+  
+  .scrollable-column {
+    height: calc(100vh - 100px); /* Adjust the height as needed */
+    overflow-y: scroll;
+  }
+
+  .scrollable-column::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+  
+  .scrollable-column {
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+  }
+
+.selected{
+  
+}
+
+
+.dfgsfdg{
+color: rgb(223, 223, 255);
+}

@@ -1,0 +1,55 @@
+.custom-input {
+  background: rgba(255, 255, 255, 0.15);
+  /* Background color with opacity for the glass effect */
+  border: none;
+  /* Remove borders */
+  padding: 10px;
+  /* Add some padding to the inputs */
+  border-radius: 5px;
+  /* Add rounded corners */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* Box shadow for the glass effect */
+  color: #000000;
+  /* Text color */
+  font-size: 16px;
+  /* Font size */
+  width: 100%;
+  /* Ensure the inputs take up the full width */
+}
+
+.custom-input[readonly] {
+  background: rgba(255, 255, 255, 0.05);
+  /* Lighter background for read-only inputs */
+  cursor: not-allowed;
+  /* Change cursor for read-only inputs */
+}
+
+.saveButton {
+  border: none;
+  width: 150px;
+}
+
+.saveButton {
+  background: #14213d;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.saveButton:hover {
+  background: linear-gradient(to right, #14213d, #14213d);
+  transform: scale(1.1);
+  /* Scale the button on hover (1.1x size) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add a subtle shadow on hover */
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.saveButton:active {
+  transform: scale(0.95);
+  /* Scale the button when it's clicked (0.95x size) */
+}

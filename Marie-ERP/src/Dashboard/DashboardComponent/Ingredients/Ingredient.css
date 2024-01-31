@@ -1,0 +1,90 @@
+.cat-card {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #002161;
+}
+
+.cat-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.cat-card-title {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.cat-card-select {
+  width: 100%;
+  height: 100%;
+  scale: 1.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.cat-card-dark-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  scale: 1.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)); */
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgba(0, 0, 0, 0.708) !important;
+}
+
+.buttonn {
+  background-color: #fca311;
+  font-size: large;
+  font-weight: bold;
+}
+
+.saveB {
+  font-size: large;
+  font-weight: medium;
+}
+
+.jkk {
+  color: #b8d5ff;
+}
+
+.custom-stockcard-category-ingredient {
+  background-color: #fff;
+  border: none;
+  color: #212529;
+  text-align: start;
+  min-width: 120px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+}
+
+.custom-stockcard-category-ingredient:hover {
+  background-color: #e0e9fa;
+}
+
+.custom-stockcard-category-ingredient-active {
+  background-color: #e0e9fa;
+  color: #212529;
+  border: none;
+  text-align: start;
+  padding: 5px 5px 5px 10px;
+  min-width: 120px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+

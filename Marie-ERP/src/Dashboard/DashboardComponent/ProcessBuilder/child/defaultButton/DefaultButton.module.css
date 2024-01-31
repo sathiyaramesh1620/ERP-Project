@@ -1,0 +1,10 @@
+.defaultButton{
+    min-width: 140px;
+    height: 34px;
+    border-radius: 7px;
+    background-color: #002060;
+    color: white;
+    font-size: 14px;
+    box-shadow: 2px 2px 8px #002060;
+    padding: 0 10px 0 10px;
+}
